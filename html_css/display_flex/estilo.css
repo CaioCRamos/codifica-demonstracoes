@@ -1,0 +1,38 @@
+.areaInterna {
+    width: 140px;
+    height: 140px;
+
+    border: 1px solid;
+}
+
+.azul {
+    border-color: lightblue;
+    background-color: lightblue;
+}
+
+.vermelho {
+    border-color: lightcoral;
+    background-color: lightcoral;
+}
+
+.verde {
+    border-color: lightgreen;
+    background-color: lightgreen;
+}
+
+#areaPrincipal {
+    height: 95vh;
+
+    display: flex;
+    /* eixo principal, direção (coluna ou linha) */
+    flex-direction: row;
+    /* continuar na proxima linha ou coluna */
+    flex-wrap: wrap;
+    /* alinha os elementos no eixo principal */
+    justify-content: center;
+    /* alinha os elementos no eixo secundário */
+    align-items: center;
+
+    row-gap: 20px;
+    column-gap: 20px;
+}
